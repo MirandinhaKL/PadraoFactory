@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="testeformas.FXMLDocumentController">
+    <children>
+        <Button fx:id="btnRetangulo" layoutX="21.0" layoutY="33.0" onAction="#handleBtnCriarRetangulo" text="Criar retângulo" />
+        <Label fx:id="labelTexto" alignment="CENTER" layoutX="21.0" layoutY="160.0" minHeight="16" minWidth="69" prefHeight="17.0" prefWidth="279.0" textAlignment="CENTER" />
+      <Button fx:id="btnCirculo" layoutX="21.0" layoutY="75.0" mnemonicParsing="false" onAction="#handleBtnCriarCirculo" prefHeight="25.0" prefWidth="96.0" text="Criar círculo" />
+      <Button fx:id="btnQuadrado" layoutX="21.0" layoutY="116.0" mnemonicParsing="false" onAction="#handleBtnCriarQuadrado" prefHeight="25.0" prefWidth="96.0" text="Criar quadrado" />
+      <Circle fx:id="circulo" fill="DODGERBLUE" layoutX="235.0" layoutY="88.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Rectangle fx:id="retangulo" arcHeight="5.0" arcWidth="5.0" fill="#ff5e00" height="120.0" layoutX="198.0" layoutY="31.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="70.0" />
+      <Rectangle fx:id="quadrado" arcHeight="5.0" arcWidth="5.0" fill="#1fff4e" height="100.0" layoutX="183.0" layoutY="38.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="100.0" />
+    </children>
+</AnchorPane>
